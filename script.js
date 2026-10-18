@@ -1,0 +1,16 @@
+// Each unit = how many base units it equals (base: m, kg, m/s, L)
+
+const units = {
+  Length: { m: 1, km: 1000, cm: 0.01, mm: 0.001, mi: 1609.344, yd: 0.9144, ft: 0.3048, in: 0.0254 },
+    Weight: { kg: 1, g : 0.001, mg: 1e-6, Lb: 0.45359237, oz: 0.028349523 },
+    Speed: { "m/s": 1, "km/h": 1 / 3.6, mph: 0.44704, knot: 0.514444},
+    Volume: { L: 1, mL: 0.001,  gal: 3.785411784, cup: 0.2365882365, "fl oz": 0.0295735296 },
+     Temperature: { "°C": 0,  "°F": 0, K: 0}
+
+};
+
+const $ = id => document.getElementById(id);
+let type = "lenght";
+
+const toC = (v, u) => u === "°F" ? (v - 32) * 5 / 9 : u === "K" ? v - 273.15 : v;
+const fromC = (c, u) => u === "°F" ? c * 9 / 5 + 32 : u === 
