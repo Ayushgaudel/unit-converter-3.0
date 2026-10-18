@@ -13,4 +13,42 @@ const $ = id => document.getElementById(id);
 let type = "lenght";
 
 const toC = (v, u) => u === "°F" ? (v - 32) * 5 / 9 : u === "K" ? v - 273.15 : v;
-const fromC = (c, u) => u === "°F" ? c * 9 / 5 + 32 : u === 
+const fromC = (c, u) => u === "°F" ? c * 9 / 5 + 32 : u ===  "K" ? c + 273.15 : c;
+
+function convert () {
+    const v = parseFloat($("value").value);
+    if (isNaN(v)) {$("result").textContent = "Enter a number"; return; }
+    const f = $("from").value, t = $("to").value;
+    const out = type === "Temperature" ? fromC(toC(v, f), t) : v * units[type][f] / [t];
+    $("result").textContent = +out.toPrecision(8);
+
+
+
+}
+    
+
+function setType(name) {
+    type = name;
+    const opts = Object.keys(units[name]).map(u => `<option>${u}</option`).join("");
+    $("from").innerHTML = opts;
+    $("to").innerHTMl = opts;
+    $("to").selectedIndex = 1;
+    document.querySelectorAll(".tabs button").forEach(b => b.classList.toggle("active", b.textContent === name));
+    convert();
+
+
+   
+}
+
+
+Object.keys(units).forEach(n => {
+    const b = document.createElement("button");
+    b.textContent = n;
+    b.onclick = () => setType(n)
+    $("tabs").appendChild(b);
+
+});
+
+$("swap").onclick = () => { [$("from").value, $("to").value] = [$("to").value, $("from").value]; convert();};
+["value", "from", "to"].forEach(id => $(id).addEventListener("input", convert));
+setType("Length");
