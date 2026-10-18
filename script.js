@@ -10,7 +10,7 @@ const units = {
 };
 
 const $ = id => document.getElementById(id);
-let type = "length";
+let type = "Length";
 
 const toC = (v, u) => u === "°F" ? (v - 32) * 5 / 9 : u === "K" ? v - 273.15 : v;
 const fromC = (c, u) => u === "°F" ? c * 9 / 5 + 32 : u ===  "K" ? c + 273.15 : c;
