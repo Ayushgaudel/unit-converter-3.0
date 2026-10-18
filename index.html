@@ -2,18 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unit Converter</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <title>Unitflow - Unit Converter</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
+
 <body>
-    <div class="converter_card">
-        <header>
-            <h1>Unit Converter</h1>
-            <p>Quickly convert values between units</p>
+    <header>
+        <div class="logo">Unit<span>Flow</span></div>
+        <nav>
             
-        </header>
+            <a href="#converter">converter</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+    <selection class="hero">
+        <h1>Convert any unit to any unit, <span>instantly.</span></h1>
+<p> Length,Weight,speed,volume and temperature.</p>
+</selection>
+        <main id="converter">
+            <div class="tabs" id="tabs"></div>
+            <div class="panel">
+            <div class="fields">
+                <label>from</label>
+                <input id="value" type="number" value="1"
+                <select id="from"></select>
+                </div>
+                <button class="swap" id="swap" title="swap"></button>
+                <div class="field"
+                <label>To</label>
+                <div class="result" id="result"></div>
+                <select id="to"></select>
+                
+    </main>
     </div>
 </body>
 </html>
