@@ -19,7 +19,7 @@ function convert () {
     const v = parseFloat($("value").value);
     if (isNaN(v)) {$("result").textContent = "Enter a number"; return; }
     const f = $("from").value, t = $("to").value;
-    const out = type === "Temperature" ? fromC(toC(v, f), t) : v * units[type][f] / [t];
+    const out = type === "Temperature" ? fromC(toC(v, f), t) : v * units[type][f] / units[type][t];
     $("result").textContent = +out.toPrecision(8);
 
 
