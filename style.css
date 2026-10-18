@@ -1,0 +1,13 @@
+:root { --accent: #7c9cff; --card: #0d0d0d; --line: #222;}
+* {box-sizing: border-box; margin: 0; padding: 0;}
+html { scroll-behavior: smooth;}
+body {background: #000; color: #060101; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.6;}
+
+header { display: flex; justify-content: space-between; align-items: center; padding: 20px 6%; border-bottom: 1px solid var(--line); }
+.logo { font-size: 24px; font-weight: 700;}
+.logo span { color: var(--accent);}
+nav a {color: #aaa; text-decoration: none; margin-left: 24px;}
+nav a:hover {color: var(--accent);}
+
+.hero { text-align: center; padding: 70px 6% 30px;}
+.hero h1 {font-size: clamp(32px,5vw ,55px); line-height: 1.15;}
