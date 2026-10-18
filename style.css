@@ -25,3 +25,8 @@ main { max-width: 900px; margin: 0; auto; padding: 20px 6% 60px;}
 .tabs button:hover {border-color: var(--accent); color: #fff;}
 .tabs button.active { background: var(--accent); border-color: var(--accent); color: #000; font-weight: 600;}
 .panel {display: grid; grid-template-columns: 1fr auto 1fr; gap: 20px; aligh-items: center; background: var(--card); border: 1px solid var(--line); border-radius: 24px; padding: 32px;}
+.feild { display: flex; flex-direction: column; gap: 10px;}
+label { color: #888; font-size: 12px; text-transform: uppercase; letter-spacing: 1px;}
+input, select, .result { background: #000; color: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 16px; font-size: 20px; outline: none; width: 100%; }
+select { font-size: 16px;}
+input:focus, select:focus {border-color: var(--accent);}
