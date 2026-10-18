@@ -29,7 +29,7 @@ function convert () {
 
 function setType(name) {
     type = name;
-    const opts = Object.keys(units[name]).map(u => `<option>${u}</option`).join("");
+    const opts = Object.keys(units[name]).map(u => "<option" + u + "</option>").join("");
     $("from").innerHTML = opts;
     $("to").innerHTMl = opts;
     $("to").selectedIndex = 1;
