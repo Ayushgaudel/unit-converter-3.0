@@ -31,7 +31,7 @@ function setType(name) {
     type = name;
     const opts = Object.keys(units[name]).map(u => "<option>" + u + "</option>").join("");
     $("from").innerHTML = opts;
-    $("to").innerHTMl = opts;
+    $("to").innerHTML = $("from").innerHTML;
     $("to").selectedIndex = 1;
     document.querySelectorAll(".tabs button").forEach(b => b.classList.toggle("active", b.textContent === name));
     convert();
