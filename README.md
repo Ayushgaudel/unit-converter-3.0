@@ -1,1 +1,3 @@
 Hello guys this is a simple unit converter.In this you can convert some of the units to other unit, for example; 1kg to gm,kelvin to celcius,etc;
+javascript took me way too long to code because i had to manage unit conversion formulas and i got frustrated many times because of failure of my code , i asked Claude it figure out my mistakes and we both struggled for sometime and then successfully my code worked.
+i kept the css and html a bit simple  
