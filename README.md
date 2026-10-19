@@ -1,20 +1,27 @@
-Hello guys this is a simple unit converter.In this you can convert some of the units to other unit, for example; 1kg to gm,kelvin to celcius,etc;
+ # UNIT CONVERTER 3.0
+
+
+
+## ABOUT
+ Hello guys this is a simple unit converter.In this you can convert some of the units to other unit, for example; 1kg to gm,kelvin to celcius,etc;
 javascript took me way too long to code because i had to manage unit conversion formulas and i got frustrated many times because of failure of my code , i asked Claude it figure out my mistakes and we both struggled for sometime and then successfully my code worked.
 i kept the css and html a bit simple  
 
+
+
+## UNITS ENVOLVED
 i took units as
 Length: m, km, cm, mm, mi, yd, ft, in
 Weight: 	kg, g, lb, oz, ...
 speed: 	km/h, mph, m/s, ...
 volume: 	L, mL, gal, ...
 temperature: 	°C, °F, K
-
 you could change any unit present in here to other respective units.
+
+
+## IS IT HARD TO USE? 
 This is not a tough thing just give it a try!!!
-
 And whenever you feel how many celcius equal 1 kelvin just remember my Unit-converter 3.0 (all this for freeeee!!)
-
-
 and still if you find this overwelming 
 check this tutorial out:
 Choose a category (Length, Weight, Speed, Volume or Temperature).
@@ -22,10 +29,7 @@ Enter a number in the From field.
 Select the unit you're converting from and the unit you're converting to.
 your result is automatically in front of youuu 😳
 
-
-
-and a quick remainder for you all 
-MY INSPIRATION😎:
+## MY INSPIRATION😎:
 Every time I needed to convert miles to kilometers or Fahrenheit to Celsius, I ended up on a cluttered website full of ads. I wanted a clean, quick converter that does one thing well ,so I gave it a Halloween makeover and did the work myself
 
 
