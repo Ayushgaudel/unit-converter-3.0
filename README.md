@@ -28,7 +28,7 @@ Enter a number in the From field.
 Select the unit you're converting from and the unit you're converting to.
 your result is automatically in front of youuu 😳
  
- ###### BELOW IS THE SCREENSHOT IF STILL YOU DON'T UNDERSTAND
+ ###### BELOW IS THE SCREENSHOT IF YOU STILL DON'T UNDERSTAND
 
 
 ## MY INSPIRATION😎:
