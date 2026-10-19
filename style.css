@@ -27,7 +27,7 @@ main { max-width: 900px; margin: 0 auto; padding: 20px 6% 60px;}
 .panel {display: grid; grid-template-columns: 1fr auto 1fr; gap: 20px; align-items: center; background: var(--card); border: 1px solid var(--line); padding: 32px;}
 .field { display: flex; flex-direction: column; gap: 10px;}
 label { color: #888; font-size: 12px; text-transform: uppercase; letter-spacing: 1px;}
-input, select, .result { background: #888885; color: #f4c405; border: 1px solid var(--line); padding: 16px; font-size: 20px; outline: none; width: 100%; }
+input, select, .result { background: #888885; color: #0e0c04; border: 1px solid var(--line); padding: 16px; font-size: 20px; outline: none; width: 100%; }
 select { font-size: 16px;}
 input:focus, select:focus {border-color: var(--accent);}
 .result { color: var(--accent); font-weight:  600; min-height: 60px; word-break: break-all;}
