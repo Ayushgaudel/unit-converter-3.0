@@ -16,18 +16,20 @@ temperature: 	°C, °F, K
 you could change any unit present in here to other respective units.
 
 
-## IS IT HARD TO USE? 
+## HOW TO USE THIS
 This is not a tough thing just give it a try!!!
 And whenever you feel how many celcius equal 1 kelvin just remember my Unit-converter 3.0 (all this for freeeee!!)
 and still if you find this overwelming 
 check this tutorial out:
+
 Choose a category (Length, Weight, Speed, Volume or Temperature).
 Enter a number in the From field.
+
 Select the unit you're converting from and the unit you're converting to.
 your result is automatically in front of youuu 😳
 
 ## MY INSPIRATION😎:
-Every time I needed to convert miles to kilometers or Fahrenheit to Celsius, I ended up on a cluttered website full of ads. I wanted a clean, quick converter that does one thing well ,so I gave it a Halloween makeover and did the work myself
+Every time I needed to convert miles to kilometers or Fahrenheit to Celsius, I ended up on a cluttered website full of ads. I wanted a clean, quick converter that does one thing well ,so this thing made me built a simple platform where we can convert without ads.
 
 ## SCREENSHOT
 Here is the screenshot of my website,(just give it a try yourself)
