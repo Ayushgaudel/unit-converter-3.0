@@ -30,7 +30,7 @@ label { color: #050302; font-size: 12px; text-transform: uppercase; letter-spaci
 input, select, .result { background: #888885; color: #0e0c04; border: 1px solid var(--line); padding: 16px; font-size: 20px; outline: none; width: 100%; }
 select { font-size: 16px;}
 input:focus, select:focus {border-color: var(--accent);}
-.result { color: var(--accent); font-weight:  600; min-height: 60px; word-break: break-all;}
+.result { color: #000; font-weight:  600; min-height: 60px; word-break: break-all;}
 
 
 .about { text-align: center; padding: 50px 6%; border-top: 1px solid var(--line); color: #999;}
