@@ -28,16 +28,13 @@ Enter a number in the From field.
 Select the unit you're converting from and the unit you're converting to.
 your result is automatically in front of youuu 😳
  
- ### BELOW IS THE SCREENSHOT IF STILL YOU DON'T UNDERSTAND
+ ###### BELOW IS THE SCREENSHOT IF STILL YOU DON'T UNDERSTAND
 
 
 ## MY INSPIRATION😎:
 Every time I needed to convert miles to kilometers or Fahrenheit to Celsius, I ended up on a cluttered website full of ads. I wanted a clean, quick converter that does one thing well ,so this thing made me built a simple platform where we can convert without ads.
 
-## SCREENSHOT
-Here is the screenshot of my website,(just give it a try yourself)
-<img width="958" height="529" alt="Screenshot 2026-10-19 at 4 27 12 AM" src="https://github.com/user-attachments/assets/48dfee0d-851c-42be-a104-8cf95fa91e2d" />
-<img width="890" height="567" alt="Screenshot 2026-10-19 at 4 26 58 AM" src="https://github.com/user-attachments/assets/a25289de-5900-4cdc-ba18-60043eff8fa8" />
+
 
 
 ## CHALLENGES THAT I FACED 
@@ -47,4 +44,14 @@ several time my code didn't work and i got frustrated many times, the javascript
 HTML, CSS AND JS
 
 
-DON'T FORGET TO RATE MY PROJECT 
+
+
+
+## SCREENSHOT
+Here is the screenshot of my website,(just give it a try yourself)
+<img width="958" height="529" alt="Screenshot 2026-10-19 at 4 27 12 AM" src="https://github.com/user-attachments/assets/48dfee0d-851c-42be-a104-8cf95fa91e2d" />
+<img width="890" height="567" alt="Screenshot 2026-10-19 at 4 26 58 AM" src="https://github.com/user-attachments/assets/a25289de-5900-4cdc-ba18-60043eff8fa8" />
+
+
+
+#### DON'T FORGET TO RATE MY PROJECT ********
