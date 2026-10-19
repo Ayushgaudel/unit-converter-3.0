@@ -1,8 +1,8 @@
-:root { --accent: #030607; --card: #343232; --line: #222;}
+:root { --accent: #fe8d03; --card: #343232; --line: #222;}
 * {box-sizing: border-box; margin: 0; padding: 0;}
 
 
-body {background: #000; color: #f2f2f2; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.6;}
+body {background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55) ), url("spooky%20pumkins.webp") center / cover no-repeat fixed; color: #f2f2f2; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.6;}
 
 header { display: flex; justify-content: space-between; align-items: center; padding: 20px 6%; border-bottom: 1px solid var(--line); }
 .logo { font-size: 24px; font-weight: 700;}
@@ -26,7 +26,7 @@ main { max-width: 900px; margin: 0 auto; padding: 20px 6% 60px;}
 .tabs button.active { background: var(--accent); border-color: var(--accent); color: #000; font-weight: 600;}
 .panel {display: grid; grid-template-columns: 1fr auto 1fr; gap: 20px; align-items: center; background: var(--card); border: 1px solid var(--line); padding: 32px;}
 .field { display: flex; flex-direction: column; gap: 10px;}
-label { color: #888; font-size: 12px; text-transform: uppercase; letter-spacing: 1px;}
+label { color: #f96e04; font-size: 12px; text-transform: uppercase; letter-spacing: 1px;}
 input, select, .result { background: #888885; color: #0e0c04; border: 1px solid var(--line); padding: 16px; font-size: 20px; outline: none; width: 100%; }
 select { font-size: 16px;}
 input:focus, select:focus {border-color: var(--accent);}
@@ -42,5 +42,7 @@ input:focus, select:focus {border-color: var(--accent);}
 .swap { margin: 0 auto; transform: rotate(90deg) }
 
 nav a { margin-left: 14px;}}
+
+
 
  
