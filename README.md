@@ -4,7 +4,7 @@
 
 ## ABOUT
  Hello guys this is a simple unit converter.In this you can convert some of the units to other unit, for example; 1kg to gm,kelvin to celcius,etc;
- Don't need to worry about watching ads in here 😎 
+ Don't need to worry about watching ads in here 😎. I call this Unit converter 3.0
 
 ## UNITS ENVOLVED
 i took units as
@@ -38,7 +38,8 @@ Every time I needed to convert miles to kilometers or Fahrenheit to Celsius, I e
 
 
 ## CHALLENGES THAT I FACED 
-several time my code didn't work and i got frustrated many times, the javascript is really hard it envolves many complex things, and at last i used claude for figuring out my mistakes in code, and finally we did it (we means i and claude because that problem was so frustrating that claude and i were discussing about for hours )
+Several time my code didn't work and i got frustrated many times, the javascript is really hard it envolves many complex things, and at last i used claude for figuring out my mistakes in code, and finally we did it (we means i and claude because that problem was so frustrating that claude and i were discussing about for hours )
+the problem was } this, i didnt notice the closing part 😭 (for once i thought i wouldn't become a good programmer😭😭 )
 
 ## LANGUAGES ENVOLVED
 HTML, CSS AND JS
