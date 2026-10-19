@@ -56,8 +56,9 @@ Here is the screenshot of my website,(just give it a try yourself)
 
 ## AI disclosure section
 as i mentioned i used claude, so let me clarify where i used claude actually for 
-* i used claude to check my code when it wasn't working and when it gave the solution i just changed the work part manually in the code 
+* i used claude to check my code when it wasn't working and when it gave the solution i just changed the word part manually in the code 
 and i did this only once in the js when it was not functioning properly
+* This was only to check the fault part of the js
 
 
 #### DON'T FORGET TO RATE MY PROJECT ********
