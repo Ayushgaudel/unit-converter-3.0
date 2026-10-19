@@ -49,6 +49,6 @@ Object.keys(units).forEach(n => {
 
 });
 
-$("swap").onclick = () => { [$("from").value, $("to").value] = [$("to").value, $("from").value]; convert();};
+
 ["value", "from", "to"].forEach(id => $(id).addEventListener("input", convert));
 setType("Length");
