@@ -27,6 +27,9 @@ Enter a number in the From field.
 
 Select the unit you're converting from and the unit you're converting to.
 your result is automatically in front of youuu 😳
+ 
+ ### BELOW IS THE SCREENSHOT IF STILL YOU DON'T UNDERSTAND
+
 
 ## MY INSPIRATION😎:
 Every time I needed to convert miles to kilometers or Fahrenheit to Celsius, I ended up on a cluttered website full of ads. I wanted a clean, quick converter that does one thing well ,so this thing made me built a simple platform where we can convert without ads.
