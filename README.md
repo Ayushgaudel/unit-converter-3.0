@@ -54,5 +54,10 @@ Here is the screenshot of my website,(just give it a try yourself)
 <img width="890" height="567" alt="Screenshot 2026-10-19 at 4 26 58 AM" src="https://github.com/user-attachments/assets/a25289de-5900-4cdc-ba18-60043eff8fa8" />
 
 
+## AI disclosure section
+as i mentioned i used claude, so let me clarify where i used claude actually for 
+* i used claude to check my code when it wasn't working and when it gave the solution i just changed the work part manually in the code 
+and i did this only once in the js when it was not functioning properly
+
 
 #### DON'T FORGET TO RATE MY PROJECT ********
