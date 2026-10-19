@@ -4,10 +4,7 @@
 
 ## ABOUT
  Hello guys this is a simple unit converter.In this you can convert some of the units to other unit, for example; 1kg to gm,kelvin to celcius,etc;
-javascript took me way too long to code because i had to manage unit conversion formulas and i got frustrated many times because of failure of my code , i asked Claude it figure out my mistakes and we both struggled for sometime and then successfully my code worked.
-i kept the css and html a bit simple  
-
-
+ Don't need to worry about watching ads in here 😎 
 
 ## UNITS ENVOLVED
 i took units as
@@ -32,8 +29,17 @@ your result is automatically in front of youuu 😳
 ## MY INSPIRATION😎:
 Every time I needed to convert miles to kilometers or Fahrenheit to Celsius, I ended up on a cluttered website full of ads. I wanted a clean, quick converter that does one thing well ,so I gave it a Halloween makeover and did the work myself
 
-
+## SCREENSHOT
 Here is the screenshot of my website,(just give it a try yourself)
 <img width="958" height="529" alt="Screenshot 2026-10-19 at 4 27 12 AM" src="https://github.com/user-attachments/assets/48dfee0d-851c-42be-a104-8cf95fa91e2d" />
 <img width="890" height="567" alt="Screenshot 2026-10-19 at 4 26 58 AM" src="https://github.com/user-attachments/assets/a25289de-5900-4cdc-ba18-60043eff8fa8" />
 
+
+## CHALLENGES THAT I FACED 
+several time my code didn't work and i got frustrated many times, the javascript is really hard it envolves many complex things, and at last i used claude for figuring out my mistakes in code, and finally we did it (we means i and claude because that problem was so frustrating that claude and i were discussing about for hours )
+
+## LANGUAGES ENVOLVED
+HTML, CSS AND JS
+
+
+DON'T FORGET TO RATE MY PROJECT 
