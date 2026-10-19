@@ -1,4 +1,4 @@
-:root { --accent: #e8590c; --card: #0d0d0d; --line: #222;}
+:root { --accent: #2a3032; --card: #343232; --line: #222;}
 * {box-sizing: border-box; margin: 0; padding: 0;}
 html { scroll-behavior: smooth;}
 
@@ -42,8 +42,5 @@ input:focus, select:focus {border-color: var(--accent);}
 .swap { margin: 0 auto; transform: rotate(90deg) }
 .swap:hover { transform: rotate(270deg);}
 nav a { margin-left: 14px;}}
-.tab button { transition: .2s;}
-.tab button:hover { transform: translate(-2px);}
-.tab button.active { box-shadow: 0 0 18px rgba(232,89,12,);}
-.swap { transition: .3s; box-shadow: 0 0 18px rgba(232,89,12,.45);}
+
  
