@@ -95,6 +95,6 @@ $("safe").onclick = () => { $("warning").style.display = "none"; };
 
 $("scareToggle").onclick = () => {
     scaresOn = !scaresOn;
-    $("scareToggle").textContent = "Jump scares: " + (screenOn ? "ON" : "OFF");
+    $("scareToggle").textContent = "Jump scares: " + (scaresOn ? "ON" : "OFF");
 
 };
