@@ -4,7 +4,7 @@
 
 ## ABOUT
  Hello guys this is a simple unit converter.In this you can convert some of the units to other unit, for example; 1kg to gm,kelvin to celcius,etc;
- Don't need to worry about watching ads in here 😎. I call this Unit converter 3.0
+ Don't need to worry about watching ads in here 😎. I call this Unit converter 3.0. one thing remember before visiting my website, this website has a jumpscare
 
 ## UNITS ENVOLVED
 i took units as
