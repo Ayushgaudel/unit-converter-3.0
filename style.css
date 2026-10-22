@@ -43,6 +43,36 @@ input:focus, select:focus {border-color: var(--accent);}
 
 nav a { margin-left: 14px;}}
 
+#warning {
+    position: fixed;
+    inset: 0;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    gap: 10px;
 
 
- 
+}
+
+#scare {
+    position: fixed;
+    inset: 0;
+    background: #000;
+    display: none;
+
+}
+
+ #scare.on {
+    display: block;
+
+ }
+
+ #scare img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }

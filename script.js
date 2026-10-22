@@ -57,7 +57,7 @@ setType("Length");
 
 let scaresOn = false;
 const scareSound = new Audio("scream.mp3");
-function jumpScare(). {
+function jumpScare() {
     if (!scaresOn) return;
     $("scare").classList.add("on");
     scareSound.currentTime = 0;
@@ -86,7 +86,7 @@ $("swap").onclick = () => {
 
 $("enter").onclick = () => {
     scaresOn = true;
-    $("scareToggle").textContent = " Jump scares: ON";
+    $("scareToggle").textContent = "Jump scares: ON";
     $("warning").style.display = "none";
 
 };
