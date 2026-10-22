@@ -91,7 +91,7 @@ $("swap").onclick = () => {
 
 $("enter").onclick = () => {
     scaresOn = true;
-    bgMusic.play().catch(() => {});
+    bgMusic.play().catch(() => {})
 
     $("scareToggle").textContent = "Jump scares: ON";
     $("warning").style.display = "none";
