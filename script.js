@@ -1,3 +1,8 @@
+console.log("script loaded");
+
+
+
+
 // Each unit = how many base units it equals (base: m, kg, m/s, L)
 
 const units = {
@@ -89,7 +94,9 @@ $("swap").onclick = () => {
 
 
 
+
 $("enter").onclick = () => {
+    console.log("enter clicked");
     scaresOn = true;
     bgMusic.play().catch(e => console.error("Music failed:", e))
 
