@@ -57,6 +57,9 @@ setType("Length");
 
 let scaresOn = false;
 const scareSound = new Audio("scream.mp3");
+const bgMusic = new Audio("halloween.mp3");
+bgMusic.loop = true;
+bgMusic.volume = 0.3;
 function jumpScare() {
     if (!scaresOn) return;
     $("scare").classList.add("on");
@@ -84,14 +87,18 @@ $("swap").onclick = () => {
 
 };
 
+
+
 $("enter").onclick = () => {
     scaresOn = true;
+    bgMusic.play().catch(() => {});
+
     $("scareToggle").textContent = "Jump scares: ON";
     $("warning").style.display = "none";
 
 };
 
-$("safe").onclick = () => { $("warning").style.display = "none"; };
+$("safe").onclick = () => {bgMusic.play().catch(() => {}); $("warning").style.display = "none"; };
 
 $("scareToggle").onclick = () => {
     scaresOn = !scaresOn;
