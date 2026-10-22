@@ -52,3 +52,49 @@ Object.keys(units).forEach(n => {
 
 ["value", "from", "to"].forEach(id => $(id).addEventListener("input", convert));
 setType("Length");
+
+/* ===== warning + jump scares ===== */
+
+let scaresOn = false;
+const scareSound = new Audio("scream.mp3");
+function jumpScare(). {
+    if (!scaresOn) return;
+    $("scare").classList.add("on");
+    scareSound.currentTime = 0;
+    scareSound.play().catch(() => {});
+    setTimeout(() => $("scare").classList.remove("on"), 800);
+    
+
+}
+
+// 1 in 5 chance. Change 0.2 to 1 to test.
+function maybeScare() {
+    if (Math.random() < 0.2) jumpScare();
+
+}
+
+["value", "from", "to"].forEach(id => $(id).addEventListener("change", maybeScare));
+
+$("swap").onclick = () => {
+    const f = $("from").value;
+    $("from").value = $("to").value;
+    $("to").value = f;
+    convert();
+    maybeScare();
+
+};
+
+$("enter").onclick = () => {
+    scaresOn = true;
+    $("scareToggle").textContent = " Jump scares: ON";
+    $("warning").style.display = "none";
+
+};
+
+$("safe").onclick = () => { $("warning").style.display = "none"; };
+
+$("scareToggle").onclick = () => {
+    scaresOn = !scaresOn;
+    $("scareToggle").textContent = "Jump scares: " + (screenOn ? "ON" : "OFF");
+
+};
